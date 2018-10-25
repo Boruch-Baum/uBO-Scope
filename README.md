@@ -2,17 +2,21 @@ website: https://github.com/Boruch-Baum/uBO-Scope
 
 This is a fork of [Raymond Hill](https://github.com/gorhill/)'s
 [uBO-Scope](https://github.com/gorhill/uBO-Scope), for the purpose of
-improving its visibility for users who opt for a dark firefox theme, or
-any theme for which the default font color is light. For this git
-branch, *light-theme*, minor changes were made to a single file
-[popup.css](./css/popup.css), which retains the original's preference
-for a white background, while making the foreground colors friendly
-for dark firefox themes. A second file,
-[popup.css-dark-theme](./css/popup.css-dark-theme), applies a dark
-theme to the add-on. In order to use the dark theme, just copy the
-file over popup.css. A backup of the popup.css file has already been
-created as [popup.css-light-theme](./css/popup.css-light-theme). On
-the complementary git branch *dark-theme*, that step has already been taken.
+improving its visibility for users who opt for a dark firefox theme,
+or any theme for which the default font color is light. For this git
+branch, *dark-theme*, minor changes were made to a single file
+[popup.css](./css/popup.css), to present the pop-up window as light
+text on a black background. A second file,
+[popup.css-light-theme](./css/popup.css-light-theme), retains the
+original's preference for a white background, while making the
+foreground colors friendly for dark firefox themes. In order to use
+the light theme, just copy the file over `popup.css`. A backup of the
+popup.css file has already been created as
+[popup.css-dark-theme](./css/popup.css-dark-theme). On the
+complementary git branch *light-theme*, that step has already been
+taken.
+
+Also, the visibility of the popup's two icons was improved.
 
 ## Preamble
 
