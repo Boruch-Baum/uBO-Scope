@@ -4,7 +4,7 @@ This is a fork of [Raymond Hill](https://github.com/gorhill/)'s
 [uBO-Scope](https://github.com/gorhill/uBO-Scope), for the purpose of
 improving its visibility for users who opt for a dark firefox theme,
 or any theme for which the default font color is light. For this git
-branch, *dark-theme*, minor changes were made to a single file
+branch, minor changes were made to a single file
 [popup.css](./css/popup.css), to present the pop-up window as light
 text on a black background. A second file,
 [popup.css-light-theme](./css/popup.css-light-theme), retains the
